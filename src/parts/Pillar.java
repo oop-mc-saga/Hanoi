@@ -35,7 +35,7 @@ public class Pillar {
     public boolean canPush(Disk d){
         boolean f = true;
         if(!disks.isEmpty()){
-            Disk top = disks.peekFirst();//dist at the top
+            Disk top = disks.getFirst();//dist at the top
             f = (d.compareTo(top) <= 0);
         }
         return f;
