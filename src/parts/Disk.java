@@ -14,7 +14,7 @@ public class Disk implements Comparable<Disk>{
 
     @Override
     public int compareTo(Disk o) {
-        return n - o.n;
+        
     }
    
     @Override
