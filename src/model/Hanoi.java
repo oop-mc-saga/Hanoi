@@ -52,15 +52,13 @@ public class Hanoi {
      * @param number number of disks to move
      */
     private void moveDisks(int from, int to, int number) {
-        if (number == 1) {
-            moveSingleDisk(from, to);
-            return;
-        }
 
-        int other = 3 - (from + to);
-        moveDisks(from, other, number - 1);
-        moveDisks(from, to, 1);
-        moveDisks(other, to, number - 1);
+    
+    
+    
+    
+    
+    
     }
 
     /**
@@ -70,12 +68,12 @@ public class Hanoi {
      * @param to destination pillar
      */
     private void moveSingleDisk(int from, int to) {
-        Disk d = pillars[from].pop();
-        pillars[to].push(d);
-        numberOfMove++;
-        if (debug) {
-            showState();
-        }
+
+    
+    
+    
+    
+    
     }
 
     /**
